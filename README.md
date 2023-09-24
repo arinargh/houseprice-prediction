@@ -11,7 +11,7 @@ Multiple linear regression was utilised to predict prices of houses sold between
 There are numerous factors to consider when attempting to sell a home (as if the competitive state of the real estate market wasn't stressful enough). While the consequences of underestimating your home's market value are obvious, overestimations would on the other hand hinder a lot's performance on the market. 
 
 __[Independent home valuations](https://www.nsw.gov.au/housing-and-construction/property-acquisition/valuations-and-compensation/getting-your-property-valued#toc-getting-your-own-valuation
-)__ are commonly used for sellers to assess their property's market value - although with every professional service, valuations do incur a fee. Banks and real estate agencies are increasingly offering __[free online appraisal tools](https://www.realestate.com.au/property/?campaignType=external&campaignChannel=sem&campaignSource=google&campaignName=track_property&campaignKeyword=generic_appraisal&gad=1&gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0iPECUhALTOHU1N5M5rihmsvDhWZUMvhSwRB6SIuEbcJWXgki0_d4aAq6jEALw_wcB)__, which are helpful in allowing sellers to have a more informed position prior to taking the next steps before formally listing their house on the market. 
+)__ are commonly used for sellers to assess their property's market value - although with every professional service, valuations do incur a fee. Banks and real estate agencies are increasingly offering __[free online appraisal tools](https://www.realestate.com.au/property/?campaignType=external&campaignChannel=sem&campaignSource=google&campaignName=track_property&campaignKeyword=generic_appraisal&gad=1&gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0iPECUhALTOHU1N5M5rihmsvDhWZUMvhSwRB6SIuEbcJWXgki0_d4aAq6jEALw_wcB)__, which are helpful in allowing sellers to have a more informed position prior to taking the next steps in formally listing their house on the market. 
 
 
 Through multiple linear regression, the current project aims to replicate the functionality of commercial home appraisal tools by taking into account a number of readily-known factors (e.g., number of bedrooms and bathrooms, home zip code). The model is built on a dataset of houses sold between 2014 - 2015 in King County, Washington State, USA.
@@ -65,7 +65,7 @@ Three interesting (albeit maybe a little obvious) insights in particular:
 ![bath.png](./images/bath.png)
 ![bed.png](./images/bed.png)
 
-2. **Higher building grades correlate with higher selling prices**. Getting your house appraised and achieving a minimum grade of 8 ("above average construction and design") may help your lot stand out from others in the market. Improving construction quality (e.g., better ventilation, more energy efficient fixtures) would be an easier and more accessible option, compared to building an entirely new room.
+2. **Higher building grades correlate with higher selling prices**. Getting your house appraised and achieving a minimum grade of 10 ("high quality features") may reliably help your lot stand out from others in the market. Improving construction quality (e.g., better ventilation, more energy efficient fixtures) would be an easier and more accessible option, compared to building an entirely new room.
 
 ![grade.png](./images/grade.png)
 
