@@ -58,7 +58,7 @@ The full model predicts **~76% of the variability in house prices** by taking in
 * Zip code
 
 Three interesting (albeit maybe a little obvious) insights in particular:
-> Note: Graphs are plotted using statistically significant correlation values only (i.e., p < alpha at 0.05)
+> Note: Graphs are plotted using statistically significant coefficient values only (i.e., p < alpha at 0.05)
 
 1. **In general, the greater the number of bedrooms and bathrooms, the higher the selling price**, although the model coefficients may suggest points of diminishing returns. That's to say, knocking down walls to establish anything beyond 6 bedrooms and 5 bathrooms may not be the as worth the return on investment (However, it's also important to note that the sample sizes for houses featuring over 4 bathrooms or 6 bedrooms are very small, resulting in less reliable coefficient values). Bathrooms appear to add more value to a home than bedrooms, though it's likely more costly to install one, too.
 
